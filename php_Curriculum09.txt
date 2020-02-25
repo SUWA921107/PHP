@@ -1,0 +1,10 @@
+1.URLとControllerやActionを紐付ける機能を何といいますか？
+ ルーティング
+
+2.あなたが考える、group化をすることのメリットを考えてみてください。
+　ソースコードを読むときにhttp://XXXXXX.jp/admin/から始まるURLにどんなアクションがあるかわかりやすいと思います。
+　一つの｛｝に収納されているから追加、削除が楽になると思います。
+　
+3.「http://XXXXXX.jp/XXX というアクセスが来たときに、 AAAControllerのbbbというAction に渡すRoutingの設定」を書いてみてください。
+　Route::get('XXX ', 'AAAController@add');
+　
