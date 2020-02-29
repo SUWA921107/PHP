@@ -1,0 +1,23 @@
+1 Viewは何をするところでしょうか。簡潔に説明してみてください。
+ A.アクセスしてきた人に対して何を表示するかを決めているところ。
+
+2 プログラマーがhtmlを書かずにPHPなどのプログラミング言語やフレームワークを使う必要があるのはどういった理由でしょうか。
+　A.ユーザー事に違う表示をさせて立ち時にmodelから情報をとってくる必要がるから。
+　
+3 【応用】 前々章でAdmin/ProfileControllerのadd Action, edit Action に次のように記述しました。
+    
+      public function add()
+      {
+          return view('admin.profile.create');
+      }
+      public function edit()
+      {
+          return view('admin.profile.edit');
+      }
+    
+この場合、add Action と edit Action を描画するには、それぞれどこのディレクトリに何というbladeファイルを設置すれば良いでしょうか。
+A.view('admin.profile.create')は mynews/resources/views/admin/profileにcreate.blade.php
+  view('admin.profile.edit')はmynews/resources/views/admin/profileにedit.blade.php
+  
+
+　
